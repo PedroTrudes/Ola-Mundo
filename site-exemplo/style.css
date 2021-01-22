@@ -1,0 +1,26 @@
+body{
+    background-color: aqua;
+}
+
+.div-mae {
+    background-color: black;
+    width: 100%;
+    height: 250px;
+}
+
+.barra-nav {
+    background-color:indigo;
+    width: auto;
+    height: 50px;
+}
+
+ul.barra-ul{
+    margin: 0;
+    padding: 0;
+}
+
+ul.barra-ul li {
+    display: inline;
+    list-style: none;
+    float: right;
+}
