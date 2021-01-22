@@ -11,16 +11,36 @@ body{
 .barra-nav {
     background-color:indigo;
     width: auto;
-    height: 50px;
+    height: 30px;
 }
 
-ul.barra-ul{
+.barra-ul{
     margin: 0;
     padding: 0;
 }
 
-ul.barra-ul li {
+.barra-ul li {
     display: inline;
     list-style: none;
     float: right;
+    
+    
+}
+
+.barra-nav li a {
+    border: 1px solid #f00;
+    width: 20px;
+    font-size: 25px;
+    text-align: center;
+    color: lawngreen;
+    background-color: rgb(9, 174, 240);
+    padding: 10 10px 10px 10;
+    text-decoration: none;
+
+}
+
+.barra-nav a:hover {
+    background-color: lightgray;
+    color: lightsalmon;
+    border-color: maroon;
 }
