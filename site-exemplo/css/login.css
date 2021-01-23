@@ -24,6 +24,36 @@ body, html {
     text-transform: uppercase;
     font-weight: 500;
     font-size: 2.5em;
+    position: relative;
+}
+.box h1::before {
+    content: '';
+    position: absolute;
+    height: 6px;
+    width: 125px;
+    bottom: 3px;
+    left: 15;
+    border-radius: 8px;
+    background: linear-gradient(45deg, #8e2de2, #4a00e0);
+}
+
+.box h3 {
+    position: relative;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 350;
+    font-size: 1.5em;
+}
+
+.box h3::before {
+    content: '';
+    position: absolute;
+    height: 5px;
+    width: 38px;
+    bottom: 1px;
+    left: 15;
+    border-radius: 8px;
+    background: linear-gradient(45deg, #8e2de2, #4a00e0)
 }
 
 .box input[type= "text"], input[type="password"], input[type= "submit"]{
@@ -39,7 +69,7 @@ body, html {
     color: #fff;
     border-radius: 24px;
     transition: 0.25s;
-    cursor: pointer;
+    cursor:pointer;
     font-size: 1em;
 
 }
@@ -60,4 +90,27 @@ body, html {
     background: #000;
     margin-top: -20px;
 
+}
+
+.logs {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.logs  li {
+    
+    display: inline;
+    padding: 2px 15px;
+    cursor: pointer;
+}
+
+.logs a {
+    text-decoration: none;
+}
+
+.logs img {
+    height: 50px;
+    width: 50px;
+    margin: 0 0.5em;
 }
