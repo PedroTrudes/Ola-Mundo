@@ -10,8 +10,14 @@ body, html {
     -webkit-font-smoothing: antialiased;
 }
 
-box {
+.box {
     width: 300px;
     padding: 40px;
     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%m -50%);
+    background: #2f3640;
+    text-align: center;
+    border-radius: 2.5em;
 }
