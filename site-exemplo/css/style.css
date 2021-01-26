@@ -15,6 +15,9 @@ header nav {
     background-color: #000;
     padding: 10px 0;
 }
+
+
+
  header nav .container {
      display: flex;
      align-items: center;
@@ -26,4 +29,42 @@ header nav {
      text-decoration: none;
  }
 
- header menu
+ header nav .menu ul li a {
+     color: #fff;
+     text-decoration: none;
+     font-weight: bold;
+     font-size: 1.2rem;
+ }
+
+ header .hero {
+     background-image: url('../imagens/banner.jpg');
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     height: 300px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ header .hero #formSearch {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ header .hero #formSearch input {
+     width: 70vw;
+     padding: 10px;
+     border-radius: 5px;
+     border: 1px solid rgba(0, 0, 0, 3);
+     text-align: center;
+
+ }
+ 
+
+/* container */
+ .container{
+    width: 90vw;
+    margin: 0px auto;
+}
