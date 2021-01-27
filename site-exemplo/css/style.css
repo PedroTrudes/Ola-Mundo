@@ -8,11 +8,11 @@ html, body {
     font-family: sans-serif;
     font-size: 1rem;
     color: #000;
-    background-color: #fff;
+    background: linear-gradient(45deg, #8e2de2, #4a00e0);
 }
 
 header nav {
-    background-color: #000;
+    background-color: #2f3640;;
     padding: 10px 0;
 }
 
@@ -25,12 +25,15 @@ header nav {
  }
 
  header nav .logo{
-     color: #fff;
+     color: #5E0DE0;
      text-decoration: none;
+ }
+ header nav .menu li{
+    list-style-type: none;
  }
 
  header nav .menu ul li a {
-     color: #fff;
+     color: #5E0DE0;
      text-decoration: none;
      font-weight: bold;
      font-size: 1.2rem;
@@ -41,7 +44,7 @@ header nav {
      background-size: cover;
      background-repeat: no-repeat;
      background-position: center;
-     height: 300px;
+     height: 350px;
      display: flex;
      justify-content: center;
      align-items: center;
@@ -64,6 +67,7 @@ header nav {
 
  main {
      margin: 20px 0px;
+     
  }
 
  main .container h3{
@@ -72,8 +76,10 @@ header nav {
 }
 
 main .container .noticia {
-    display: flex;
-    flex-direction: column;
+    width: 300px;
+    display: inline-block;
+    flex-direction: row;
+    margin-right: 0.8px;
 
 }
 
@@ -110,7 +116,7 @@ main .container .noticia {
 }
 
 .noticia button {
-    width: 50%;
+    width: 100%;
     margin: 20px auto;
     padding: 10px;
     font-weight: bold;
@@ -122,6 +128,7 @@ main .container .noticia {
     cursor: pointer;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 3);
     transition: 0.3s ease;
+    
 }
 
 .noticia button:hover {
